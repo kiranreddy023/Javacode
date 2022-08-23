@@ -2,6 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.kohsuke</groupId>
   <artifactId>Javacode</artifactId>
+   <packaging>war</packaging>
   <version>0.1</version>
   <name>Javacode by Kiran</name>
   <url>https://github-api.kohsuke.org/</url>
@@ -776,7 +777,7 @@
               <execution>
                 <id>attach-javadocs</id>
                 <goals>
-                  <goal>jar</goal>
+                  <goal>war</goal>
                 </goals>
               </execution>
             </executions>
